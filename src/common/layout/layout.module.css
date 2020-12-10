@@ -1,0 +1,11 @@
+.layout {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px 0;
+    height: 100%;
+}
+
+.layout__content {
+    position: relative;
+    padding-bottom: 20px;
+}

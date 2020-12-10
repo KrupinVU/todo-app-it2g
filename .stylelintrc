@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-htmlacademy",
+  "rules": {
+    "indentation": 4,
+    "string-quotes": "single",
+    "number-leading-zero": null,
+    "property-no-unknown": [ true, {
+      "ignoreProperties": [
+        "composes"
+      ]
+    }],
+    "unit-allowed-list": ["em", "rem", "s", "px",  "%", "fr", "deg", "vw", "vh"]
+  }
+}

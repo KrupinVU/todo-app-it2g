@@ -1,0 +1,4 @@
+src/core/service-worker
+src/core/setupTests.ts
+src/react-app-env.d.ts
+src/setupTests.ts

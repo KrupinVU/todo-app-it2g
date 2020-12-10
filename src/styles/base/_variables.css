@@ -1,0 +1,13 @@
+:root {
+    /* Color */
+    --bg-color: #cecece;
+    --main-font-color: #111111;
+
+    /* Sizes */
+    --main-font-size: 16px;
+
+    /* Animations */
+    --color: .5s;
+    --default-delay-transition: .3s;
+    --default-func-transition: ease-in-out;
+}

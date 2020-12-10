@@ -1,0 +1,86 @@
+.content-list {
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-list__item {
+    width: 100%;
+    box-shadow: var(--shadow-light);
+}
+
+.content-list__wrapper {
+    display: flex;
+    width: 100%;
+    padding: 15px 30px 10px;
+}
+
+.animal-name {
+    width: 15.9%;
+}
+
+.animal-name__link {
+    display: block;
+    color: var(--color--dark);
+}
+
+.animal-name__link:hover {
+    color: var(--color--primary);
+}
+
+.animal-name__link:hover .animal-name__text {
+    border-bottom-color: currentColor;
+}
+
+.animal-name__text {
+    overflow: hidden;
+    display: inline-block;
+    max-width: 100%;
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
+    line-height: 20px;
+    font-size: 20px;
+    transition: border-bottom-color var(--default-delay-transition),
+        color var(--default-delay-transition);
+    text-overflow: ellipsis;
+}
+
+.animal-name__description {
+    display: block;
+    color: var(--gray-color-hs--400);
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.animal-time {
+    width: 10.5%;
+}
+
+.animal-medication {
+    width: 51.3%;
+}
+
+.animal-medication__text {
+    margin-bottom: 5px;
+}
+
+.drugs-list {
+    padding-left: 12px;
+    list-style: '\2014';
+}
+
+.drugs-item {
+    padding-left: 5px;
+}
+
+.loading,
+.nothing,
+.error {
+    padding: 15px 30px;
+}
+
+.error {
+    color: var(--color--red);
+}
