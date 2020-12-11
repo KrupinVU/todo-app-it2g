@@ -24,7 +24,7 @@ const useStyle = makeStyles((theme) => ({
     'text-align': 'center',
   },
   loader: {
-    margin: '20px 0',
+    margin: '20px auto',
   },
   filters: {
     width: '100%',

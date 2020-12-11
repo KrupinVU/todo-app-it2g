@@ -49,7 +49,6 @@ export const loadTasks: asyncActionType = () => async (dispatch) => {
 export const removeTask: asyncActionType = (id: number) => async (dispatch) => {
   dispatch(setIsAdding());
   const status = await deleteTask(id);
-  console.log(status);
   if (status === 200) dispatch(setAddingDone());
   dispatch(unsetIsAdding());
 }

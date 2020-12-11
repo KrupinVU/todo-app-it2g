@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Тестовое задание ToDoApplication от IT2G
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Проект создан с помощью [Create React App](https://github.com/facebook/create-react-app).
+Бэкенд имитирован с помощью сервиса [MockAPI](https://mockapi.io/projects/5fce019b3e19cc00167c5253).
+Стилизация преимущественно выполнена на основе UI библиотеки MaterialUI.
+
+## Issues
+
+Иногда крашится запрос на сервер 
+(пока что имеется убеждение, что дело не в коде, а именно в работе API, проверил с помощью привлечения сторонних лиц).
+Повторный запрос обычно решает проблему.
 
 ## Available Scripts
 
